@@ -19,8 +19,8 @@ const wish_button = `<style>
 function init() {
   console.log("from script 5")
     document
-        .querySelector("div.product-form__item product-form__item--submit product-form__item--payment-button")
-        .insertAdjacentHTML("afterend", wish_button);
+        .querySelector("footer")
+        .insertAdjacentHTML("beforebegin", wish_button);
 }
 
 init();
