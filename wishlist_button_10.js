@@ -27,7 +27,7 @@ const serverUrl = "https://39c8a2397cd7.ngrok.io";
 
 fetch(`${serverUrl}/db/save/${window.location.hostname}`).then(function (response) {
 	// The API call was successful!
-    console.log(response);
+    console.log(response.json());
 }).then(function (data) {
 	// This is the JSON from our response
 	console.log(data.json());
