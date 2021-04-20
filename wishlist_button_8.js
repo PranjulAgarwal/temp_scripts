@@ -19,7 +19,7 @@ const wish_button = `<style>
 function init() {
   console.log("from script 8")
     document
-        .querySelector("div.product-single__description rte")
+        .querySelector("div.product-single__description")
         .insertAdjacentHTML("beforebegin", wish_button);
 }
 
