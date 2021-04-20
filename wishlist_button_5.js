@@ -1,4 +1,4 @@
- console.log("From 5");
+ console.log("From 5 new");
 
 const wish_button = `<style>
 .button_wish {
