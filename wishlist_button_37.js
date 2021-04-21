@@ -134,7 +134,7 @@ function init(Value,wish_button_1,wish_button_2,wish_button_3,wish_button_4,wish
     });
 }
 
-const serverUrl = "https://0a06868a622f.ngrok.io";
+const serverUrl = "https://ceb2569361c5.ngrok.io";
 
 //fetch shop owner design settings
 fetch(`${serverUrl}/db/save/${window.location.hostname}`).then(function (response) {
