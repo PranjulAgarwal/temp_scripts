@@ -114,7 +114,7 @@ function renderButton(data) {
     }
 }
 
-const serverUrl = "https://abb07fcc5149.ngrok.io";
+const serverUrl = "https://2d67546a80f3.ngrok.io";
 
 //fetch shop owner design settings
 fetch(`${serverUrl}/db/save/${window.location.hostname}`).then(function (response) {
